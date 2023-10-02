@@ -22,7 +22,7 @@ app.get('/random/:name', (req, res) => {
 
  
   try {
-    const image = fs.readFileSync(`.${imageUrl}`);
+    const image = fs.readFileSync(`${imageUrl}`);
     res.contentType('image/jpeg'); 
     res.send(image);
   } catch (error) {
