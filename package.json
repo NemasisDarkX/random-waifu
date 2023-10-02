@@ -1,0 +1,14 @@
+{
+  "name": "random-waifu",
+  "version": "1.0.0",
+  "description": "gets random waifu pics",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "GLITCH",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
