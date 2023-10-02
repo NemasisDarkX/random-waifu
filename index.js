@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 const fs = require('fs');
+const path = require('path'); 
 const waifuData = require('./waifu-data.json');
-
 
 app.get('/random/:name', (req, res) => {
   const { name } = req.params;
@@ -12,7 +12,6 @@ app.get('/random/:name', (req, res) => {
     return res.status(404).send('Waifu not found');
   }
 
- 
   const randomImageIndex = Math.floor(Math.random() * 10);
   const imageUrl = waifu[`image${randomImageIndex}`];
 
@@ -20,16 +19,15 @@ app.get('/random/:name', (req, res) => {
     return res.status(404).send('Image not found');
   }
 
- 
   try {
-    const image = fs.readFileSync(`${imageUrl}`);
-    res.contentType('image/jpeg'); 
+    const imagePath = path.join(__dirname, imageUrl); 
+    const image = fs.readFileSync(imagePath);
+    res.contentType('image/jpeg');
     res.send(image);
   } catch (error) {
     res.status(500).send('Error serving the image');
   }
 });
-
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
