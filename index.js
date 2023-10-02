@@ -20,7 +20,6 @@ app.get('/random/:name', async (req, res) => {
     return res.status(404).send('Image not found');
   }
 
-  
   try {
     const response = await axios.get(imageUrl, {
       responseType: 'arraybuffer',
@@ -37,6 +36,7 @@ app.get('/random/:name', async (req, res) => {
     
     res.sendFile(filePath);
   } catch (error) {
+    console.error(error);
     res.status(500).send('Error serving the image');
   }
 });
