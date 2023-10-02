@@ -1,10 +1,11 @@
 const express = require('express');
 const app = express();
-const fs = require('fs');
-const path = require('path'); 
+const axios = require('axios');
+const fs = require('fs').promises;
+const path = require('path');
 const waifuData = require('./waifu-data.json');
 
-app.get('/random/:name', (req, res) => {
+app.get('/random/:name', async (req, res) => {
   const { name } = req.params;
   const waifu = waifuData.find((waifu) => waifu.name === name);
 
@@ -19,11 +20,22 @@ app.get('/random/:name', (req, res) => {
     return res.status(404).send('Image not found');
   }
 
+  
   try {
-    const imagePath = path.join(__dirname, imageUrl); 
-    const image = fs.readFileSync(imagePath);
-    res.contentType('image/jpeg');
-    res.send(image);
+    const response = await axios.get(imageUrl, {
+      responseType: 'arraybuffer',
+    });
+
+    
+    const extension = path.extname(imageUrl);
+    const filename = `${name}-${randomImageIndex}${extension}`;
+    const filePath = path.join(__dirname, 'images', filename);
+
+    
+    await fs.writeFile(filePath, response.data);
+
+    
+    res.sendFile(filePath);
   } catch (error) {
     res.status(500).send('Error serving the image');
   }
