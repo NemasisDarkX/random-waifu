@@ -1,10 +1,10 @@
 <p align=centre>
   
-  # Random Waifu Image API ![](https://img.shields.io/badge/Deployed_On-Render-blue)
+  # Waifu Image API ![](https://img.shields.io/badge/Deployed_On-Render-blue)
    ![Viewer Count](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2FNemasisDarkX%2Frandom-waifu.json%3Fcolor%3Dpink)
-  <p><b>Scrapped Genshin TCG Card API</b></p>
-  <p>This file only includes obtainable and unobtainable cards</p>
-  <a href="https://genshin-impact.fandom.com/wiki/Character_Card/Gallery"><img src="https://dailymetadose.com/wp-content/uploads/2022/12/genshin-impact-genius-invokation-tcg-all-action-cards-tierlist-cover.jpg" border="0">     </a>
+  <p><b>Gives a Waifus Image On Request</b></p>
+  <p>I do not own the images used</p>
+  <a href="https://dashboard.render.com/"><img src="https://random-waifu.onrender.com/random/Nino" border="0">     </a>
   </br>
   <p>Fork The Repo And Deploy The API On A Server Like</p>
   <p align="center">
