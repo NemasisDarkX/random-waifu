@@ -4,32 +4,25 @@
    ![Viewer Count](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2FNemasisDarkX%2Frandom-waifu.json%3Fcolor%3Dpink)
   <p><b>Gives a Waifus Image On Request</b></p>
   <p>I do not own the images used</p>
-  <a href="https://dashboard.render.com/"><img src="https://random-waifu.onrender.com/random/Nino" border="0">     </a>
+  <a href="https://dashboard.render.com/"><img src="https://random-waifu.onrender.com/random/Nino" border="0"></a>
+  <p>Current Waifus are limited You can Fork this Project and Add More Waifus</p>
   </br>
   <p>Fork The Repo And Deploy The API On A Server Like</p>
   <p align="center">
-  <a href="https://heroku.com/deploy?template=https://github.com/NemasisDarkX/Genshin-TCG-Card-API"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
-    <a href="https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fdatejer%2Fvercel-badge%2Ftree%2Fmaster" rel="nofollow"><img src="https://camo.githubusercontent.com/5e471e99e8e022cf454693e38ec843036ec6301e27ee1e1fa10325b1cb720584/68747470733a2f2f76657263656c2e636f6d2f627574746f6e" repo-name="https://github.com/NemasisDarkX/Genshin-TCG-Card-API" alt="Deploy with Vercel" data-canonical-src="https://vercel.com/button" style="max-width: 100%;"></a>
+  <a href="https://heroku.com/deploy?template=https://github.com/NemasisDarkX/random-waifu"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
+  <a href="https://render.com/deploy?repo=https://github.com/NemasisDarkX/random-waifu"><img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render"></a>
+  
 </p>
 
 
 <p>And once you get the base url, use:</p>
 
 ```bash
- > <base_url>/random
+ > <base_url>/random/<waifu_name>
 ```
 
-```bash
- > <base_url>/random-element/<element_name>
-```
-
-```bash
- > <base_url>/character/<character_name>
-```
-
-
-<p>Or You Can Deploy On Terminal</p>
-<p>First Clone The Project</p>
+<p>Or You Can Deploy On Terminal
+First Clone The Project</p>
 
 ```bash
 $ git clone https://github.com/NemasisDarkX/Genshin-TCG-Card-API.git
@@ -43,7 +36,7 @@ $ npm i
 <p>To Start The API</p>
 
 ```bash
-$ npm start
+$ npm test
 ```
 
 <p>base url</p>
@@ -54,22 +47,8 @@ $ npm start
 <p>For Random Card</p>
 
 ```bash
-$ http://localhost:3000/random
+$ http://localhost:3000/random/<waifu_name>
 ```
-
-<p>For Random Card Based On Element</p>
-
-```bash
-$ http://localhost:3000/random-element/<element_name_here>
-  ```
-<p>For Card Of Specific Character</p>
-
-```bash
-$ http://localhost:3000/character/<character_name_here>
-```
-
-
-  <p><b>I do not own the images provided in the json file</b></p>
   
 <p><b>If You Find This Helpful Consider Giving This Repo A ⭐ </b></p>
   
