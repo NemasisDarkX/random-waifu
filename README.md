@@ -24,7 +24,7 @@
 First Clone The Project</p>
 
 ```bash
-$ git clone https://github.com/NemasisDarkX/Genshin-TCG-Card-API.git
+$ git clone https://github.com/NemasisDarkX/random-waifu.git
 ```
 
 <p>To Install The Packages</p>
