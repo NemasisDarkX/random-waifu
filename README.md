@@ -1,6 +1,6 @@
 <p align=centre>
   
-  # Random Waifu Image API   ![](https://img.shields.io/badge/Deployed_On-Render-blue, alt= https://dashboard.render.com)
+  # Random Waifu Image API ![](https://img.shields.io/badge/Deployed_On-Render-blue, alt= https://dashboard.render.com)
    ![Viewer Count](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2FNemasisDarkX%2FGenshin-TCG-Card-API.json%3Fcolor%3Dpink)
   <p><b>Scrapped Genshin TCG Card API</b></p>
   <p>This file only includes obtainable and unobtainable cards</p>
