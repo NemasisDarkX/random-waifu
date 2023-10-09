@@ -1,7 +1,7 @@
 <p align=centre>
   
   # Random Waifu Image API ![](https://img.shields.io/badge/Deployed_On-Render-blue)
-   ![Viewer Count](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2FNemasisDarkX%2FGenshin-TCG-Card-API.json%3Fcolor%3Dpink)
+   ![Viewer Count](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2FNemasisDarkX%2Frandom-waifu.json%3Fcolor%3Dpink)
   <p><b>Scrapped Genshin TCG Card API</b></p>
   <p>This file only includes obtainable and unobtainable cards</p>
   <a href="https://genshin-impact.fandom.com/wiki/Character_Card/Gallery"><img src="https://dailymetadose.com/wp-content/uploads/2022/12/genshin-impact-genius-invokation-tcg-all-action-cards-tierlist-cover.jpg" border="0">     </a>
