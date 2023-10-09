@@ -5,7 +5,9 @@
   <p><b>Gives a Waifus Image On Request</b></p>
   <p>I do not own the images used</p>
   <a href="https://dashboard.render.com/"><img src="https://random-waifu.onrender.com/random/Nino" border="0"></a>
-  <p>Current Waifus are limited You can Fork this Project and Add More Waifus</p>
+   <a href="https://dashboard.render.com/"><img src="https://random-waifu.onrender.com/random/Miku" border="0"></a>
+  <p>Current Waifus are limited 
+    You can Fork this Project and Add More Waifus</p>
   </br>
   <p>Fork The Repo And Deploy The API On A Server Like</p>
   <a href="https://heroku.com/deploy?template=https://github.com/NemasisDarkX/random-waifu"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
