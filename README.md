@@ -5,8 +5,8 @@
   <p><b>Gives a Waifus Image On Request</b></p>
   <p>I do not own the images used</p>
   <div align="center">
-    <img src="https://random-waifu.onrender.com/random/Nino" width="200" height="300" style="margin-right: 40px;">
-    <img src="https://random-waifu.onrender.com/random/Miku" width="200" height="300" style="margin-left: 40px;">
+    <img src="https://random-waifu.onrender.com/random/Nino" width="300" height="400" style="margin-right: 20px;">
+    <img src="https://random-waifu.onrender.com/random/Miku" width="300" height="400" style="margin-left: 20px;">
   </div>
   <p>Current Waifus are limited 
     You can Fork this Project and Add More Waifus</p>
