@@ -4,8 +4,10 @@
    ![Viewer Count](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2FNemasisDarkX%2Frandom-waifu.json%3Fcolor%3Dpink)
   <p><b>Gives a Waifus Image On Request</b></p>
   <p>I do not own the images used</p>
-  <a href="https://dashboard.render.com/"><img src="https://random-waifu.onrender.com/random/Nino" border="0"></a>
-   <a href="https://dashboard.render.com/"><img src="https://random-waifu.onrender.com/random/Miku" border="0"></a>
+  <div align="center">
+    <a href="https://dashboard.render.com/"><img src="https://random-waifu.onrender.com/random/Nino" border="0"></a>
+    <a href="https://dashboard.render.com/"><img src="https://random-waifu.onrender.com/random/Miku" border="0"></a>
+  </div>
   <p>Current Waifus are limited 
     You can Fork this Project and Add More Waifus</p>
   </br>
